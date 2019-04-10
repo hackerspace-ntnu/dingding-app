@@ -1,0 +1,30 @@
+{
+  "name": "hackerspace-dingding",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "clear": "expo start --clear",
+    "eject": "expo eject",
+    "prettier": "prettier --config .prettierrc --write \"{index.tsx,src/**/*.tsx}\"",
+    "tsc-test": "tsc --project . --noEmit",
+    "check-all": "npm-run-all prettier tsc-test"
+  },
+  "dependencies": {
+    "@types/expo": "^32.0.9",
+    "@types/react": "^16.8.12",
+    "expo": "^32.0.0",
+    "prettier": "^1.15.3",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-paper": "^2.2.8",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.1"
+  },
+  "devDependencies": {
+    "expo-cli": "^2.6.0",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
