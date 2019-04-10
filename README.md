@@ -1,4 +1,8 @@
 # Ding Ding App
+![travis](https://travis-ci.org/hackerspace-ntnu/dingding-app.svg?branch=master)
+![dependencies-status](https://img.shields.io/david/hackerspace-ntnu/dingding-app.svg)
+![dev-dependecies-status](https://img.shields.io/david/dev/hackerspace-ntnu/dingding-app.svg)
+
 Hackerspace door bell app.
 
 ## Technologies
